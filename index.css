@@ -1,0 +1,98 @@
+html, body {
+    margin: 0;
+    background: #EDEDED;
+    padding: 0;
+}
+
+.container {
+    max-width: 375px;
+}
+
+#logo {
+    width: 127px;
+    height: 33px;
+}
+
+#user-avatar {
+    width: 33px;
+    height: 33px;
+    border-radius: 100%;
+}
+.head-sec {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    border-bottom: 1px solid #C6C6C6;
+}
+.post-img img {
+    width: 34px;
+    padding: 5px;
+    border-radius: 100%;
+}
+
+.post-header {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    background: #fff;
+}
+
+.user-name {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.user-loca {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+.post-post img {
+    width: 375px;
+    height: 375px;
+}
+
+.post-btns img {
+    width: 23px;
+    padding: 8px;
+}
+
+.post-btns {
+    padding: 10px;
+    background: #fff;
+}
+
+
+
+header {
+    background: #fff;
+}
+
+.post {
+    margin-bottom: 20px;
+}
+.post-likes p {
+    font-size: 13px;
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+}
+
+.post-likes {
+    background: #fff;
+    padding: 10px;
+}
+
+.post-comment p {
+    margin: 0;
+}
+
+.post-comment {
+    background: #fff;
+    padding: 10px;
+}
+.main {
+    margin: 0 auto;
+    width: 400px;
+}
